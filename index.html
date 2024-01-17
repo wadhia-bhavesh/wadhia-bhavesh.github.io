@@ -68,6 +68,7 @@
 
             if (distance < 0) {
                 clearInterval(x);
+                document.body.innerHTML = '';
                 document.getElementById("countdown").innerHTML = "We're live!";
             }
         }, 100);
